@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+  <title>Survey Form</title>
+  <link href="styles.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<div>
+  <header class="header">
+    <h1 id="title">Love Is Around Survey Form</h1>
+    <p id="description">Thank you for taking this survey!</p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" 
+             name="name" 
+             id="name" 
+             class="form-control" placeholder="Enter your name" required />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Email" required />
+    </div>
+
+    <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your intentions on dating?</p>
+      <select id="dropdown" name="intent" class="form-control"  required>
+        <option disabled selected value>Please Select</option>
+        <option value="decline">Don't Want it</option>
+        <option value="accept">Heavily Pursuing</option>
+        <option value="indifferent">Dating Around</option>
+        <option value="interest">Interested/Curious</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>Do you already have options lined up?</p>
+      <label>
+        <input name="user-options" value="Nope" type="radio" class="input-radio" checked />Nope</label>
+      <label>
+        <input name="user-options" value="definitely" type="radio" class="input-radio" />Yes I do</label>
+      <label>
+        <input name="user-options" value="decision" type="radio" class="input-radio" />Currently deciding</label>
+    </div>
+    <div class="form-group">
+      <p>Why is a relationship something that you are seeking or avoiding right now?</p>
+      <select id="reason" name="reason" class="form-control" required>
+        <option disabled selected value>Please select an option</option>
+        <option value="right">Right time</option>
+        <option value="stable">Financially Stable</option>
+        <option value="experience">Need/Want Experience</option>
+        <option value="focus">Focused On More Important Aspects In My Life</option>
+        <option value="waste">Currently A Waste of Time</option>
+        <option value="finance">Would Like To Be More Financially Stable</option>
+        <option value="not ready">Not Currently Suited for A Relationship At The Moment</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>What is an aspect of a relationship that you value and consider important to have?<span>(Check all that apply)</span></p>
+      <label>
+        <input name="aspect" value="openness" type="checkbox" class="input-checkbox" />Openness</label>
+      <label>
+        <input name="aspect" value="reliable" type="checkbox" class="input-checkbox" />Reliability</label>
+      <label>
+        <input name="aspect" value="emotion" type="checkbox" class="input-checkbox" />Emotional Intelligence</label>
+      <label>
+        <input name="aspect" value="stability" type="checkbox" class="input-checkbox" />Stability</label>
+      <label>
+        <input name="aspect" value="growth" type="checkbox" class="input-checkbox" />Progressive</label>
+      <label>
+        <input name="aspect" value="support" type="checkbox" class="input-checkbox" />Supportive</label>
+      <label>
+        <input name="aspect" value="unwavering" type="checkbox" class="input-checkbox" />Unwavering Love</label>
+      <label>
+        <input name="aspect" value="autonomy" type="checkbox" class="input-checkbox" />Autonomy</label>
+      <label>
+        <input name="aspect" value="fun" type="checkbox" class="input-checkbox" />Enjoyable</label>
+      <label>
+        <input name="aspect" value="trust" type="checkbox" class="input-checkbox" />Trustworthiness</label>
+      <label>
+        <input name="aspect" value="dedicate" type="checkbox" class="input-checkbox" />Dedication</label>
+      <label>
+        <input name="aspect" value="creative" type="checkbox" class="input-checkbox" />Creative</label>
+    </div>
+    <div id="philosophy" class="form-group">
+      <p>Please state your own philosophy regarding relationships or love</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Please input your ideas here..."></textarea>
+    </div>
+    <div id="sub" class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+
+    </div>
+  </form>
+</div>
