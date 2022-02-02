@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+#survey-form{
+  background: #F6C7BE;
+}
+
+body{
+  text-align: center;
+  background-image: 
+  background-position: center;
+}
+
+header{
+  /*background: url('https://w0.peakpx.com/wallpaper/406/953/HD-wallpaper-sakura-blossom-petals-scenery-sky-cherry-anime.jpg');*/
+  background: #FBE3DF;
+  border-radius: .4rem;
+}
+h1{
+  font-family: 'Yellowtail', cursive;
+  width: 100%;
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  font-size: 3.5rem;
+  
+}
+p{
+  margin-top: 25px;
+  padding: 5px;
+  font-size: 18px;
+  display: block;
+  
+}
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-control{
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 0.80rem;
+  margin: 0.50rem;
+  box-sizing: border-box;
+  height: 2.4rem;
+  
+}
+.form-group{
+  margin: 2rem auto 1.5rem auto;
+  padding: 2.5px;
+}
+.form-group, p{
+  font-family: 'Baloo 2', cursive;
+  font-size: 25px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  padding-left: 8px;
+}
+.input-radio, .input-checkbox{
+  display: inline-block;
+  margin-right: 0.635rem;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+}
+#description{
+  margin: 0.50rem;
+  font-size: 30px;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.submit-button{
+  display: center;
+  cursor: pointer;
+  width: 100%;
+  
+}
+.input-textarea {
+  min-height: 100px;
+  width: 95%;
+  padding: 0.6rem;
+  resize: vertical;
+}
+
+form {
+  display: block;
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+:root {
+  background: white;
+  --pane-padding: 5px 42px;
+}
+
+#philosophy, #sub{
+  background: #FCEAE7;
+  border-radius: 0.4rem;
+}
+
+.submit-button{
+  border-radius: 0.3rem;
+  cursor: pointer;
+  width: 95%;
+  background: #BEEDF6;
+}
